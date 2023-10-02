@@ -15,6 +15,7 @@ optional_ascii = $HOME/.local/share/asciiart/
 I don't know if everything works on your system, because I mostly used the AUR (archlinux), In case you want to try compiling manually and go hunting for some fonts, maybe some things will break:
 
 1 - picom (in almost all repositories, apt, pacman, etc);    
+2 - BSPW (same thing as the first);        
 2 - zsh (same thing as the first);    
 3 - dunst (same thing as the first);        
 4 - polybar (same thing as the first);    
