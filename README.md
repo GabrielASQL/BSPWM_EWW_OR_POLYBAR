@@ -7,7 +7,7 @@ home = $HOME/
 dot_config = $HOME/.config/    
 local = $HOME/.local/    
 
-# This is the optional asciiarts, in case you want then to spawn with zsh simply put then in:
+# These are the optional asciiarts, in case you want then to spawn with zsh simply put then in:
 optional_ascii = $HOME/.local/share/asciiart/
 
 
