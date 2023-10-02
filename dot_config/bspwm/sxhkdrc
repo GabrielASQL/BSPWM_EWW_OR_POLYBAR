@@ -79,10 +79,11 @@ alt + p
 
 # Dark Ones (for light theme)
 alt + w 
-	feh -z --no-fehbg --bg-fill ~/Images/kana_d/
+	feh -z --no-fehbg --bg-fill ~/.config/bspwm/rices/lightz/walls/
 
+# Light Ones (for dark theme)
 alt + c
-  feh -z --no-fehbg --bg-fill ~/Images/skrull/custom/
+  feh -z --no-fehbg --bg-fill ~/.config/bspwm/rices/z0mbi3/walls/
  
 alt + d 
   eww --config ~/.config/bspwm/rices/z0mbi3/dashboard open dashboard
