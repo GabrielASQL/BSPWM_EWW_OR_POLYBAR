@@ -1,4 +1,4 @@
-# BSPWM_EWW_OR_POLYBAR
+# BSPWM EWW OR POLYBAR
 Some rices I made, a polybar one with my colorscheme, and two Eww bars (light and dark themes).
 
 # If you want you can just copy everything as listed bellow, but you can choose some optional asciiarts.
