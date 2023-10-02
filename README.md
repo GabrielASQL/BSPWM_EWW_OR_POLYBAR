@@ -14,14 +14,14 @@ optional_ascii = $HOME/.local/share/asciiart/
 # Dependencies
 I don't know if everything works on your system, because I mostly used the AUR (archlinux), In case you want to try compiling manually and go hunting for some fonts, maybe some things will break:
 
-1 - picom (in almost all repositories, apt, pacman, etc);
-2 - zsh (same thing as the first);
-3 - polybar (same thing as the first);
+1 - picom (in almost all repositories, apt, pacman, etc);    
+2 - zsh (same thing as the first);    
+3 - polybar (same thing as the first);    
 4 - eww-bar (Its in the AUR, in case you're not in Arch, you have to compile it. Only necessary if you want to use the other two themes I made, the sidebar ones, in case you just want the top one, polybar is enough);
 
 5 - Fonts:
-    - Material Design Icons Desktop;
-    - JetBrainsMono Nerd Font;
-    - Comic Mono;
-    - Fira Code;
+    - Material Design Icons Desktop;    
+    - JetBrainsMono Nerd Font;    
+    - Comic Mono;    
+    - Fira Code;    
     - Terminess Nerd Font.
