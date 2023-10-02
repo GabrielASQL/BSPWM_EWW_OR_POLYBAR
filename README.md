@@ -17,11 +17,11 @@ I don't know if everything works on your system, because I mostly used the AUR (
 1 - picom (in almost all repositories, apt, pacman, etc);    
 2 - zsh (same thing as the first);    
 3 - dunst (same thing as the first);        
-3 - polybar (same thing as the first);    
-4 - eww-bar (Its in the AUR, in case you're not in Arch, you have to compile it. Only necessary if you want to use the other two themes            
+4 - polybar (same thing as the first);    
+5 - eww-bar (Its in the AUR, in case you're not in Arch, you have to compile it. Only necessary if you want to use the other two themes            
 I made, the sidebar ones, in case you just want the top one, polybar is enough);
 
-5 - Fonts:                                
+6 - Fonts:                                
     - Material Design Icons Desktop;    
     - JetBrainsMono Nerd Font;    
     - Comic Mono;    
