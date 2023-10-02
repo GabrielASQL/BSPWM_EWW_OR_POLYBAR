@@ -3,8 +3,8 @@ Some rices I made, a polybar one with my colorscheme, and two Eww bars (light an
 
 # If you want you can just copy everything as listed bellow, but you can choose some optional asciiarts.
 directories to copy to: 
-home = $HOME/
-dot_config = $HOME/.config/
+home = $HOME/ \
+dot_config = $HOME/.config/ \
 local = $HOME/.local/
 
 # This is the optional asciiarts, in case you want then to spawn with zsh simply put then in:
