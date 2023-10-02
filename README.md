@@ -20,7 +20,7 @@ I don't know if everything works on your system, because I mostly used the AUR (
 4 - eww-bar (Its in the AUR, in case you're not in Arch, you have to compile it. Only necessary if you want to use the other two themes            
 I made, the sidebar ones, in case you just want the top one, polybar is enough);
 
-5 - Fonts:        
+5 - Fonts:                                
     - Material Design Icons Desktop;    
     - JetBrainsMono Nerd Font;    
     - Comic Mono;    
