@@ -1,0 +1,38 @@
+#!/usr/bin/env bash
+#  ╔═╗═╗ ╦╔╦╗╔═╗╦═╗╔╗╔╔═╗╦    ╦═╗╦ ╦╦  ╔═╗╔═╗
+#  ║╣ ╔╩╦╝ ║ ║╣ ╠╦╝║║║╠═╣║    ╠╦╝║ ║║  ║╣ ╚═╗
+#  ╚═╝╩ ╚═ ╩ ╚═╝╩╚═╝╚╝╩ ╩╩═╝  ╩╚═╚═╝╩═╝╚═╝╚═╝
+#  url: https://github.com/gh0stzk/dotfiles
+
+wid=$1
+class=$2
+instance=$3
+consequences=$4
+
+main () {
+case "$class" in
+		Pavucontrol)
+	    eval "$consequences"
+	    [ "$state" ] || echo "state=floating center=on rectangle=800x600 desktop=^3 follow=on"
+	    ;;
+	  Spotify)
+		eval "$consequences"
+	    [ "$state" ] || echo "state=pseudo_tiled rectangle=1125x600 desktop=^2 follow=on"
+		;;
+		"") ## spotify hack
+        sleep 0.5
+		wm_class=($(xprop -id $wid | grep "WM_CLASS" | grep -Po '"\K[^,"]+'))
+		class=${wm_class[-1]}
+		[[ ${#wm_class[@]} == "2" ]] && instance=${wm_class[0]}
+		[[ -n "$class" ]] && main
+		;;
+esac
+}
+
+main
+case "$instance" in
+     Toolkit)
+        eval "$consequences"
+        [ "$state" ] || echo "state=floating sticky=on rectangle=500x290+1054+593"
+	    ;;
+esac  

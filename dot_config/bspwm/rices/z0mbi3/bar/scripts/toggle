@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+
+# Arquivo de controle para rastrear o estado da dashboard
+STATE_FILE="$HOME/.cache/dashboard_state"
+
+# Verifique o estado atual da dashboard
+if [ -f "$STATE_FILE" ]; then
+  # Se o arquivo de controle existir, fecha a dashboard
+  eww -c ~/.config/bspwm/rices/z0mbi3/dashboard close dashboard
+  rm "$STATE_FILE"  # Remove o arquivo de controle
+else
+  # Se o arquivo de controle não existir, abre a dashboard
+  eww -c ~/.config/bspwm/rices/z0mbi3/dashboard open dashboard
+  touch "$STATE_FILE"  # Cria o arquivo de controle
+fi
+

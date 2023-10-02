@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+eww -c ~/.config/bspwm/rices/lightz/dashboard close dashboard

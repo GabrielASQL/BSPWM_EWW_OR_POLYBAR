@@ -1,0 +1,211 @@
+schemes:
+
+  ivory: &ivory
+    # Default colors
+    primary:
+      background: "#032c36"
+      foreground: "#e8dfd6"
+   
+    # Normal colors
+    normal:
+      black:   "#021b21"
+      red:     "#c2454e"
+      green:   "#7cbf9e"
+      yellow:  "#a89c14"
+      blue:    "#44b5b1"
+      magenta: "#ff5879"
+      cyan:    "#44b5b1"
+      white:   "#f2f1b9"
+    # Bright colors
+    bright:
+      black:   "#065f73"
+      red:     "#ef5847"
+      green:   "#a2d9b1"
+      yellow:  "#f3e430"
+      blue:    "#61778d"
+      magenta: "#ff99a1"
+      cyan:    "#9ed9d8"
+      white:   "#f6f6c9"
+  cursor:
+      cursor: "#f2f1b9"
+      text:	  "#f3e430"
+
+#lightz color theme (eww light theme)
+  lightz: &lightz
+    # Default colors
+    primary:
+      background: "#f2f1b9"
+      foreground: "#021b21"
+   
+    # Normal colors
+    normal:
+      black:   "#021b21"
+      red:     "#c2454e"
+      green:   "#7cbf9e"
+      yellow:  "#a89c14"
+      blue:    "#44b5b1"
+      magenta: "#ff5879"
+      cyan:    "#44b5b1"
+      white:   "#f2f1b9"
+    # Bright colors
+    bright:
+      black:   "#065f73"
+      red:     "#ef5847"
+      green:   "#a2d9b1"
+      yellow:  "#f3e430"
+      blue:    "#61778d"
+      magenta: "#ff99a1"
+      cyan:    "#9ed9d8"
+      white:   "#f6f6c9"
+  cursor:
+      cursor: "#032c32"
+      text:	  "#f3e430"
+
+
+ 
+ # Tokyo Night theme, based on both:
+  #   https://github.com/ghifarit53/tokyonight-vim
+  #   https://github.com/enkia/tokyo-night-vscode-theme
+  tokyo-night: &tokyo-night
+    # Default colors
+    primary:
+      background: "#1a1b26"
+      foreground: "#a9b1d6"
+
+    # Normal colors
+    normal:
+      black:   "#32344a"
+      red:     "#f7768e"
+      green:   "#9ece6a"
+      yellow:  "#e0af68"
+      blue:    "#7aa2f7"
+      magenta: "#ad8ee6"
+      cyan:    "#449dab"
+      white:   "#787c99"
+
+    # Bright colors
+    bright:
+      black:   "#444b6a"
+      red:     "#ff7a93"
+      green:   "#b9f27c"
+      yellow:  "#ff9e64"
+      blue:    "#7da6ff"
+      magenta: "#bb9af7"
+      cyan:    "#0db9d7"
+      white:   "#acb0d0"
+
+  tokyo-night-storm: &tokyo-night-storm
+    # Default colors
+    primary:
+      background: "#24283b"
+      foreground: "#a9b1d6"
+
+    # Normal colors
+    normal:
+      black:   "#32344a"
+      red:     "#f7768e"
+      green:   "#9ece6a"
+      yellow:  "#e0af68"
+      blue:    "#7aa2f7"
+      magenta: "#ad8ee6"
+      cyan:    "#449dab"
+      white:   "#9699a8"
+
+    # Bright colors
+    bright:
+      black:   "#444b6a"
+      red:     "#ff7a93"
+      green:   "#b9f27c"
+      yellow:  "#ff9e64"
+      blue:    "#7da6ff"
+      magenta: "#bb9af7"
+      cyan:    "#0db9d7"
+      white:   "#acb0d0"
+
+
+  everblush: &everblush
+    primary:
+      background: "#141b1e"
+      foreground: "#dadada"
+    normal:
+      black:   "#232a2d"
+      red:     "#e57474"
+      green:   "#8ccf7e"
+      yellow:  "#e5c76b"
+      blue:    "#67b0e8"
+      magenta: "#c47fd5"
+      cyan:    "#6cbfbf"
+      white:   "#b3b9b8"
+    bright:
+      black:   "#2d3437"
+      red:     "#ef7e7e"
+      green:   "#96d988"
+      yellow:  "#f4d67e"
+      blue:    "#71baf2"
+      magenta: "#ce89df"
+      cyan:    "#67cbe7"
+      white:   "#bdc3c2"
+    cursor:
+      cursor: "#dadada"
+      text:	  "#dadada"
+poly: &poly
+  # Default colors
+  primary:
+    background: "#112433"
+    foreground: "#fbe4de"
+
+  # Normal colors
+  normal:
+    black:   "#10202d"
+    red:     "#c53966"
+    green:   "#3da465"
+    yellow:  "#a3a446"
+    blue:    "#235e7d"
+    magenta: "#903099"
+    cyan:    "#238c78"
+    white:   "#8a7e7a"
+
+  # Bright colors
+  bright:
+    black:   "#313f4a"
+    red:     "#f32d4b"
+    green:   "#63f29a"
+    yellow:  "#e7e95a"
+    blue:    "#33a0d8"
+    magenta: "#b33bbd"
+    cyan:    "#3df1ce"
+    white:   "#fbe4de"
+    cursor:
+      cursor: "#f32d4b"
+      text:	  "#fbe4de"
+
+# Colors (Everforest Dark)
+# Default colors
+everforest : &everforest
+  primary:
+    background: "#2d353b"
+    foreground: "#d3c6aa"
+
+  # Normal colors
+  normal:
+    black:   "#475258"
+    red:     "#e67e80"
+    green:   "#a7c080"
+    yellow:  "#dbbc7f"
+    blue:    "#7fbbb3"
+    magenta: "#d699b6"
+    cyan:    "#83c092"
+    white:   "#d3c6aa"
+
+  # Bright colors
+  bright:
+    black:   "#475258"
+    red:     "#e67e80"
+    green:   "#a7c080"
+    yellow:  "#dbbc7f"
+    blue:    "#7fbbb3"
+    magenta: "#d699b6"
+    cyan:    "#83c092"
+    white:   "#d3c6aa"
+# Set the color scheme for the actual rice.
+colors: *poly

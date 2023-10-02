@@ -1,0 +1,221 @@
+* {
+  all: unset;
+}
+
+// Variable Color's
+$background: #f2f1b9; 
+$foreground: #021b21; 
+
+$black: #032c36;
+$red: #ef5847;
+$green: #7cbf9e;
+$yellow: #f2f1b9;
+$blue: #44b5b1;
+$magenta: #ff5879;
+$cyan: #9ed9d8;
+$white: $foreground;
+$debianlogo: #c34043;
+
+// The bar
+.eww_bar {
+  background-color: $background;
+  padding: 0.3rem;
+  border-radius: 20px;
+}
+
+.dash_icon {
+  background-color: $background;
+  color: $black;
+  font-size: 25px;
+  padding: 1.3px;
+  border-radius: 9px;
+}
+.switch {
+  background-color: $background;
+  color: $black;
+  font-size: 30px;
+  padding: 0px 5px 0px 0px;
+  border-radius: 9px;
+}
+// Launcher
+.launcher_icon {
+  color: $blue;
+  font-family: "Material Design Icons Desktop";
+  font-size: 35px;
+  padding: 3px 0 1px 0;
+  border-radius: 0px;
+}
+
+// Launcher
+.update_icon {
+  color: $black;
+  font-family: "Material Design Icons Desktop";
+  font-size: 25px;
+  padding: 1px 3 1px 0;
+}
+
+
+// Workspaces
+.works {
+  font-family: "Material Design Icons Desktop";
+  padding: 200px 1px 10 1px;
+  background-color: $background;
+  border-radius: 25px;
+}
+
+.workspace-focused {
+  font-size: 25;
+  color: $red;
+  margin: 0.35rem 0 0.35rem 0;
+}
+
+.workspace-occupied {
+  font-size: 25px;
+  color: $blue;
+  margin: 0.35rem 0 0.35rem 0;
+}
+
+.workspace-empty {
+  font-size: 18px;
+  color: #021b21;
+  margin: 0.35rem 0 0.35rem 0;
+}
+
+.sound {
+    font-size: 20px;
+    color: $black;
+    padding: 1px 3px 1px 2px;
+ }
+ .wifi {
+    font-size: 23px;
+    color: $black;
+    padding: 1px 6px 1px 0px;
+}
+// icons info
+.control {
+  padding: 0.5rem;
+  background-color: $background;
+  border-radius: 5px;
+}
+
+.trayicon {
+  background-repeat: no-repeat;
+  background-size: 25px;
+  min-height: 25px;
+  min-width: 7px;
+  margin: 0.2rem 0 0.2rem 0;
+}
+
+.bar-updates-text {
+  font-family: "JetBrainsMono Nerd Font";
+  font-size: 14px;
+  font-weight: Bold;
+  color: #8ea6c4;
+  padding: 0.2rem 0 0.2rem 0.3rem;
+}
+
+scale trough {
+  all: unset;
+  background-color: $foreground;
+  border-radius: 5px;
+  min-height: 80px;
+  min-width: 10px;
+  margin: 0.3rem 0 0.3rem 0.1rem;
+}
+
+.volbar trough highlight {
+  background: $blue;
+  border-radius: 5px;
+}
+
+// Clock
+.time {
+  font-family: JetBrainsMono Nerd Font;
+  font-weight: bold;
+  font-size: 20px;
+  background-color: $background;
+  color: $black;
+  border-radius: 5px;
+  padding: 0.7rem 0 0.5rem 0;
+  margin: 0.5rem 0 0.5rem 0;
+}
+
+// Calendar
+.cal-box {
+  background-color: $background;
+  border-radius: 5px;
+  font-family: Comic Mono;
+  font-size: 1em;
+  font-weight: bold;
+
+  .cal-inner-box {
+    padding: 1rem 1rem 0.2rem;
+
+    .cal {
+      &.highlight {
+        padding: 10rem;
+      }
+
+      padding: 0.8rem 0.25rem 0rem;
+      margin-left: 10px;
+    }
+  }
+}
+
+calendar:selected {
+  color: $blue;
+}
+
+calendar.header {
+  color: $blue;
+  font-weight: bold;
+}
+
+calendar.button {
+  color: $red;
+}
+
+calendar.highlight {
+  color: $red;
+  font-weight: bold;
+}
+
+calendar:indeterminate {
+  color: $green;
+}
+
+// Powermenu
+.powermenu {
+  font-family: Material Design Icons Desktop;
+  font-size: 1.4em;
+  font-weight: bold;
+}
+
+.button-bspres,
+.button-reb,
+.button-lock,
+.button-quit,
+.button-off {
+  padding: 0.5rem 0.2rem 0.3rem 0.2rem;
+}
+
+.button-off {
+  margin-bottom: 0.5rem;
+  color: $red;
+}
+
+.button-bspres {
+  color: $green;
+}
+
+.button-reb {
+  color: $yellow;
+}
+
+.button-quit {
+  color: $magenta;
+}
+
+.button-lock {
+  color: $blue;
+}
